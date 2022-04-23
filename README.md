@@ -26,7 +26,7 @@ smtp_server = smtp.mail.ru
 login = my_sender_login  
 
 
-#Запуск БП
+# Запуск БП
 ```
 curl -X POST -d '{"variables":{"email":{"value":"my_email@email.com","type":"String"}}}' -H 'Content-Type: application/json' 'http://127.0.0.1:8080/engine-rest/process-definition/key/send_funny_email/submit-form'
 ```
